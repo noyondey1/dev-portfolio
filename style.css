@@ -1,57 +1,60 @@
-body{
+body {
     font-family: 'Koulen', cursive;
     margin: 0;
 }
 
-h1{
+h1 {
     font-size: 50px;
     /* font-weight: 700; */
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
-.top-banner{
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
-.flexible-container{
+.flexible-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.half-width{
+.half-width {
     width: 50%;
     padding-left: 50px;
 }
 
-.half-width img{
-    width: 100%;
+.half-width img {
+    width: 80%;
     margin-top: 10px;
 }
 
-.purple-color{
+.purple-color {
     color: purple;
 }
 
-.hero-section{
+.hero-section {
     background-image: url(images/dream-bg2.png);
     background-repeat: no-repeat;
     background-position: left;
 }
 
-.exp-item{
+.exp-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 50px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
     /* width: 60%; */
 }
 
-.experience-items{
+.experience-items {
     margin-left: 40px;
     margin-right: 40px;
     box-shadow: 10px 10px 40px gray;
@@ -61,14 +64,24 @@ h2{
     text-align: justify;
 }
 
-#senior-dev{
+#senior-dev {
     border-left: 7px solid;
-    border-image: linear-gradient(#4e54c8, #8f94fb);
+    border-image: linear-gradient(#FF4949, #FFCD38);
     border-image-slice: 1;
 }
 
-#junior-dev{
+#junior-dev {
     border-left: 7px solid;
-    border-image: linear-gradient(#2980B9, #78ffd6);
+    border-image: linear-gradient(#2E0249, #F806CC);
     border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none;
 }
