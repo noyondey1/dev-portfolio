@@ -17,6 +17,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .half-width{
@@ -25,10 +26,16 @@ h1{
 }
 
 .half-width img{
-    width: 80%;
+    width: 100%;
     margin-top: 10px;
 }
 
-.pale-color{
+.purple-color{
     color: purple;
+}
+
+.hero-section{
+    background-image: url(images/dream-bg2.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
