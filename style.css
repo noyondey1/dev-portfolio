@@ -5,7 +5,11 @@ body{
 
 h1{
     font-size: 50px;
-    font-weight: 700;
+    /* font-weight: 700; */
+}
+
+h2{
+    font-size: 40px;
 }
 
 .top-banner{
@@ -38,4 +42,33 @@ h1{
     background-image: url(images/dream-bg2.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+.exp-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    /* width: 60%; */
+}
+
+.experience-items{
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+#senior-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(#4e54c8, #8f94fb);
+    border-image-slice: 1;
+}
+
+#junior-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(#2980B9, #78ffd6);
+    border-image-slice: 1;
 }
